@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>MySQL to Excel</title>
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <h1 class="is-size-5 has-text-centered my-4">T136 MySQL to Excel</h1>
+
+  <div class="notification is-link is-light">
+    <ul id="logs"></ul>
+  </div>
+
+  <div class="button-actions">
+    <div class="field is-grouped">
+      <p class="control">
+        <button class="button is-link is-loading" id="write-to-excel" class="btn" type="button">&#9889; Çalıştır</button>
+      </p>
+      <p class="control">
+        <button class="button is-success is-loading" id="save-to-target" class="btn" type="button">&#128190; Kaydet</button>
+      </p>
+    </div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+</html>
